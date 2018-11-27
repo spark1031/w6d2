@@ -1,0 +1,54 @@
+/* PHASE 9: Forms */
+.form {
+  position: absolute;
+  
+}
+
+.form .thumb {
+  float: left;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-field {
+  width: 500px;
+  border: 1px solid black;
+  float: right;
+  margin-left: 10px;
+  display: block;
+  padding: 20px;
+}
+
+/* .input {
+  border: 1px solid black;
+  padding: 20px;
+} */
+
+.input > label {
+  display: block;
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.input > input,
+.input > textarea {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(100% - 22px);
+  border-radius: 5px;
+}
+
+
+.post-title {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.post-body {
+  width: 400px;
+  height: 200px;
+  text-overflow: hidden;
+  /* flex-wrap: wrap; */
+}
